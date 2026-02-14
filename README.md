@@ -21,16 +21,19 @@ RESTful API for managing recipes and users with secure authentication and role-b
 - `pom.xml` – dependencies  
 - `mvnw` – Maven wrapper
 
+
 ## ▶️ How to Run Locally
+1. Configure MongoDB connection in `application.properties`  
+2. Start the server:
 ```bash
-# install dependencies
-Configure MongoDB connection in application.properties
-Start the server
-Test endpoints with Insomnia/Postman
+./mvnw spring-boot:run
+
+Test endpoints using Insomnia or Postman
 
 ##🔐 Auth
 Register user → receive JWT
-Pass token in Authorization: Bearer <token>
+Pass token in header:
+Authorization: Bearer <token>
 
 ##🧠 What I Learned
 Designing RESTful APIs
@@ -41,5 +44,3 @@ Professional Git/GitHub workflow
 
 ##👩‍💻 Author
 Malak Faour
-./mvnw spring-boot:run
-
