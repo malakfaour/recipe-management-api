@@ -28,18 +28,18 @@ Configure MongoDB connection in application.properties
 Start the server
 Test endpoints with Insomnia/Postman
 
-🔐 Auth
+##🔐 Auth
 Register user → receive JWT
 Pass token in Authorization: Bearer <token>
 
-🧠 What I Learned
+##🧠 What I Learned
 Designing RESTful APIs
 Securing endpoints with JWT
 Role-based access control
 MongoDB schema design
 Professional Git/GitHub workflow
 
-👩‍💻 Author
+##👩‍💻 Author
 Malak Faour
 ./mvnw spring-boot:run
 
